@@ -4,7 +4,7 @@ compatibility_date = "2024-01-01"
 
 # ✅ Tambahkan ini untuk cron trigger
 [triggers]
-crons = ["47 23 * * *"]
+crons = ["0 0 * * *"]
 
 [observability]
 enabled = false
