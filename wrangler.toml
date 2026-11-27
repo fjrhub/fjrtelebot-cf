@@ -2,6 +2,10 @@ name = "fjrtelebot-cf"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
+# ✅ Tambahkan ini untuk cron trigger
+[triggers]
+crons = ["47 23 * * *"]
+
 [observability]
 enabled = false
 head_sampling_rate = 1
